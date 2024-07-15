@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  background-color: #fcf7f7c3;
+}
+
+
+.session{
+  display: flex;
+  flex-direction: row;
+}
+
+label{
+  font-size: 16px;
+}
+
+input{
+  font-size: 18px;
+  width: 300px;
+}
+
+.btn {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.btn:hover{
+  background-color: white;
+  border: 1px solid #007bff;
+  color: #007bff;
+
+}
+
+#ToDoList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#ToDoList li {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid #74f3f392;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+
+
+#ToDoList li span {
+  flex-grow: 1;
+  margin-left: 5px;
+}
+
+#ToDoList li button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#ToDoList li button:hover {
+  background-color: white;
+  border: 1px solid #007bff;
+  color: #007bff;
+
+}
+
+#ToDoList li input[type="checkbox"] {
+  margin-right: 10px;
+}
